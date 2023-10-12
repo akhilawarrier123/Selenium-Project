@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OrangeHRM" verbose="1" >
+    <test name="Regression" >
+        <classes>
+            <class name="com.orangeHRM.Testcases.LoginTC" />
+            <class name="com.orangeHRM.Testcases.DashBoardTC">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="Regression1">
+        <classes>
+
+        </classes>
+    </test>
+</suite>
