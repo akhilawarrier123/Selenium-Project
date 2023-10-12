@@ -7,7 +7,7 @@ public class rooms extends Hotels {
     }
 
     @Override
-    public void roomrent() {
+    public void roomRent() {
         System.out.println("the AC=rs5000");
         System.out.println("non AC=rs 3000");
         System.out.println("Normal=rs 1000");
@@ -17,8 +17,8 @@ public class rooms extends Hotels {
 
     public static void main(String[] args) {
         rooms r=new rooms();
-        r.roomtype();
+        r.roomType();
         r.floor();
-        r.roomrent();
+        r.roomRent();
     }
 }
